@@ -1,5 +1,5 @@
 # chatbot
 
-Chatbot with Flutter and LIAMMA and GPT LLMs
+Chatbot with Flutter and Gemini
 
 
