@@ -20,8 +20,9 @@ ScrollController scrollController = ScrollController();
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         backgroundColor: Theme.of(context).primaryColor,
-        title: Text("Chat Bot" , style: TextStyle(color: Theme.of(context).indicatorColor)),
+        title: Text("Chat Bot".toUpperCase() , style: TextStyle(color: Theme.of(context).indicatorColor)),
         actions: [
           IconButton(onPressed: (){
             Navigator.of(context).pop();
